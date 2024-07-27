@@ -142,3 +142,14 @@
         }
     }   
 }
+
+
+@media(max-width:500px){
+    .icons__body{
+flex-direction: column;
+gap: 30px;
+.icons__wrapper{
+    width: 100%;
+}
+    }
+}

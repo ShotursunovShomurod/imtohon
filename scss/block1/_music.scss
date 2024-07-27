@@ -67,3 +67,25 @@
     }
   }
 }
+
+
+@media(max-width:600px){
+ .Music{
+   .Music__wrapper{
+    .Music__img{
+      padding: 20px;
+      .Music__text{
+        p{
+          font-size: 20px;
+        }
+      }
+      .Music__haurs{
+        flex-wrap: wrap;
+        .button{
+          display: none;
+        }
+      }
+    }
+   }
+ } 
+}

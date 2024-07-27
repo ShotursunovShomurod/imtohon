@@ -51,3 +51,21 @@
         }
     }
 }
+
+
+@media(max-width:600px){
+    .hero{
+ .hero__wrapper{
+     .product-detail{
+        flex-direction: column;
+        gap: 20px;
+        .prodact__img{
+            width: 100%;
+        }
+        .prodact__content{
+            width: 100%;
+        }
+    }
+ }       
+    }
+}

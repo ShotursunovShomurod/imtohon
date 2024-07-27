@@ -65,3 +65,29 @@
     }
   }
 }
+
+
+@media(max-width:1000px){
+  .navbar{
+    .navbar__wrapper{
+    .navbar__inp {
+      display: none; 
+    }
+  }
+}
+}
+@media(max-width:630px){
+  .navbar{
+    .navbar__wrapper{
+      .navbar__logo{
+        width: 30%;
+        img{
+          width: 200px;
+        }
+      }
+    .navbat__text {
+      display: none; 
+    }
+  }
+}
+}

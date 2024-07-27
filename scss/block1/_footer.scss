@@ -17,7 +17,7 @@
     .footer__collection {
       display: flex;
       gap: 87px;
-
+      flex-wrap: wrap;
       .exclusive {
         display: flex;
         flex-direction: column;

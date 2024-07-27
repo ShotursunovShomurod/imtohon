@@ -52,3 +52,20 @@
     }
  }   
 }
+
+
+@media(max-width:700px){
+    .reklama{
+        .reklama__wrapper{
+           .reklama__img{
+            padding: 10px;
+            .reklama__text{
+                p{
+                    font-size: 20px;
+                }
+            }
+           } 
+
+        }
+    }
+}

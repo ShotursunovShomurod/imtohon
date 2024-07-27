@@ -134,3 +134,25 @@
     }
   }
 }
+
+
+@media(max-width:900px){
+.feature {
+  .feature__wrapper{
+    .feature__block{
+flex-direction: column;
+.feature__bigimg{
+  width: 100%;
+}
+
+.feature__smallimg{
+  width: 100%;
+  gap: 10px;
+  .feature__supimg{
+    height: 100%;
+    background-position: center;
+  }
+}
+    }
+  }
+}}

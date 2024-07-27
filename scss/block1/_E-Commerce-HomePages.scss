@@ -1,0 +1,42 @@
+.sub__navbar {
+  width: 100%;
+  background: #000;
+  .sub__navbar__wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 0;
+    .sub__navbar__text {
+      width: 70%;
+      display: flex;
+      justify-content: end;
+      p {
+        color: #fafafa;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 21px;
+        span {
+          font-weight: 600;
+          font-size: 20px;
+          line-height: 24px;
+        }
+      }
+    }
+    .sub__navbar__language {
+      width: 10%;
+      display: flex;
+      justify-content: end;
+      .select {
+        background: transparent;
+        color: #fafafa;
+        border: none;
+        outline: none;
+        option {
+          background: #000;
+          color: #fafafa;
+        }
+      }
+    }
+  }
+}

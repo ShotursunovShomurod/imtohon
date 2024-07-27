@@ -1,0 +1,53 @@
+.reklama{
+    width: 100%;
+ .reklama__wrapper{
+    width: 100%;
+    margin-top: 40px;
+    background: #000;
+    .reklama__img{
+        background-image: url(/assets/hero_endframe__cvklg0xk3w6e_large\ 2.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-position-y: top;
+        padding: 47px 67px;
+        display: flex;
+        flex-direction: column;
+        gap: 28px;
+        .reklama__logo{
+            width: 100%;
+            display: flex;
+            gap: 14.5px;
+            align-items: center;
+            color: #fff;
+            i{
+                font-size: 40px;
+           }
+           p{
+            color: #fafafa;
+           }
+        }
+        .reklama__text{
+            width: 100%;
+            p{
+                color: #fafafa;
+                font-size: 48px;
+                font-weight: 600;
+                max-width: 280px;
+            }
+        }
+        .reklama__subtitle{
+            width: 100%;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            p{
+                color: #fafafa;
+                font-weight: 500;
+            }
+            i{
+                color: #fafafa;
+            }
+        }
+    }
+ }   
+}

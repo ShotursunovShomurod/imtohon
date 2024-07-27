@@ -1,0 +1,69 @@
+.Music {
+  width: 100%;
+  padding-top: 105px;
+  .Music__wrapper {
+    width: 100%;
+    margin-top: 40px;
+    background: #000;
+    .Music__img {
+      background-image: url(/assets/Frame\ 694.png);
+      background-position: right;
+      background-repeat: no-repeat;
+      background-position-y: top;
+      padding: 47px 67px;
+      display: flex;
+      flex-direction: column;
+      gap: 28px;
+      .Music__logo {
+        width: 100%;
+        display: flex;
+        gap: 14.5px;
+        align-items: center;
+        color: #fff;
+        i {
+          font-size: 40px;
+        }
+        p {
+          color: #00ff66;
+        }
+      }
+      .Music__text {
+        width: 100%;
+        p {
+          color: #fafafa;
+          font-size: 48px;
+          font-weight: 600;
+          max-width: 410px;
+        }
+      }
+      .Music__subtitle {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        gap: 8px;
+        .Music__btn {
+          background: #00ff66;
+          width: 171px;
+          height: 56px;
+          padding: 16px 48px 16px 48px;
+          border-radius: 4px;
+          border: none;
+        }
+      }
+      .Music__haurs {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        gap: 24px;
+        button {
+          width: 62px;
+          height: 62px;
+          border-radius: 50%;
+          border: none;
+          padding: 10px;
+          font-size: 12px;
+        }
+      }
+    }
+  }
+}

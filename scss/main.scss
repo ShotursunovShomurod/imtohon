@@ -1,0 +1,15 @@
+@import"reset";
+
+
+
+// block
+@import"block1/E-Commerce-HomePages.scss";
+@import"block1/navbar";
+@import"block1/reklama";
+@import"block1/cotegories";
+@import"block1/products";
+@import"block1/music";
+@import"block1/faeture";
+body{
+    height: 600vh;
+}

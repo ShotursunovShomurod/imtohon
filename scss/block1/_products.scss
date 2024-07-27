@@ -105,8 +105,11 @@
 .show-more {
   display: block;
   margin: 20px auto;
+  height: 56px;
+  width: 234px;
   padding: 10px 20px;
-  background-color: #007bff;
+  transition: .5s;
+  background: #DB4444;
   color: #fff;
   border: none;
   border-radius: 5px;
@@ -115,5 +118,5 @@
 }
 
 .show-more:hover {
-  background-color: #0056b3;
+  background-color: #7a1919;
 }

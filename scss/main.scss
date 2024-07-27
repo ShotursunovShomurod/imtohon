@@ -2,7 +2,7 @@
 
 
 
-// block
+// block1
 @import"block1/E-Commerce-HomePages.scss";
 @import"block1/navbar";
 @import"block1/reklama";
@@ -10,6 +10,10 @@
 @import"block1/products";
 @import"block1/music";
 @import"block1/faeture";
-body{
-    height: 600vh;
-}
+@import"block1/icon";
+@import"block1/footer";
+
+
+
+// block2
+@import"block2/hero";
